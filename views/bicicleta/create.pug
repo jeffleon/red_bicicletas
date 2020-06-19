@@ -1,0 +1,24 @@
+extends ../layout
+block content
+    a(href='/bicicleta') Lista de Bicicletas
+    br
+    h1= 'Crear una Bicicleta'
+    br
+    form(action='/bicicleta/create' method='post')
+        label(for='id') ID:
+        input#id(type='text' name='id')
+        br
+        label(for='color') Color:
+        input#color(type='text' name='color')
+        br
+        label(for='modelo') Modelo:
+        input#modelo(name='modelo')
+        br
+        label(for='lat') Lat:
+        input#lat(name='lat')
+        br
+        label(for='long') Long:
+        input#long(name='long')
+        br
+        input.btn(type="submit", value="ok")
+            
