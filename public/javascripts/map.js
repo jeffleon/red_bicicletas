@@ -6,7 +6,7 @@ async function get_bicicles(){
     const json = await response.json()
     console.log(json)
     json.bicicleta.forEach(element => {
-        L.marker(element.ubicacion, title=element.id).addTo(mymap)
+        L.marker(element.ubicacion, {title : element.id}).addTo(mymap)
     });
 }
 
