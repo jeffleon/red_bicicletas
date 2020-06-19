@@ -33,9 +33,9 @@ Bicicleta.removeById = function(bici){
     }
 }
 
-var bici = new Bicicleta(1, "gris", "sport", [-34.56, 98.23])
-var bici2 = new Bicicleta(2, "roja", "sport", [-70.5, -20.74])
-var bici3 = new Bicicleta(4, "Azul", "todo terreno", [-20.0, 48.52])
+var bici = new Bicicleta(1, "gris", "sport", [4.653703, -74.085937])
+var bici2 = new Bicicleta(2, "roja", "sport", [4.651821, -74.094777])
+var bici3 = new Bicicleta(4, "Azul", "todo terreno", [4.637278, -74.089026])
 Bicicleta.add(bici)
 Bicicleta.add(bici2)
 Bicicleta.add(bici3)
